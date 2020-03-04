@@ -4,8 +4,6 @@ int main ()
  {
 float seg, min, horas;
 
-//printf("Digite os segundos:\n");
-//scanf("%d", &seg);
 seg=18900;
 horas=seg/60/60;
 min=seg/60;
