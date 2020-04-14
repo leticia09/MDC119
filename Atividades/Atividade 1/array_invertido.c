@@ -12,9 +12,4 @@ for (a = 0;a<10;a++)
     scanf("%d", &array[a]);
     printf("\n");
     }
-for (b = 9; b >= 0; b--)
-    {
-        printf("%d\n", array[b]);
-    }
-    return 0;
 }
