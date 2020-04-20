@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]){
     for(i=0;i<10;i++){
     	printf("Primeria nota: %d\n", notas[i][0]);
     	printf("Segunda nota:%d\n", notas[i][1]);
-	    printf("A media é: %d\n", notas[i][2]);
+	    printf("A media é: %d\n", media[i][2]);
 	}
 
 	
