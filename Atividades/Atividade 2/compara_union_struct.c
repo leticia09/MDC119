@@ -17,6 +17,14 @@ struct s_produto {
     float peso;
 }produto2;
 
+struct s_itens {
+    char nome;
+    float preco;
+    float volume;
+    float peso;
+}produto3, produto4;
+
+
 int main(){
     
     produto1.nome='Arroz';
@@ -29,7 +37,17 @@ int main(){
     produto2.volume=1;
     produto2.peso=500;
 
+    produto3.nome='sal';
+    produto3.preco=6.00;
+    produto3.volume=1;
+    produto3.peso=500;
+
+    produto4.nome='sabonete';
+    produto4.preco=1.20;
+    produto4.volume=1;
+    produto4.peso=90;
+
+
 printf("%d\n", sizeof (char));
 printf("%d", sizeof (float));
-
 }
